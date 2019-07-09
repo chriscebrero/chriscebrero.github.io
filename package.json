@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chriscebrero.io/chriscebrero.github.io",
+  "homepage": "https://chriscebrero.github.io/chriscebrero.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
