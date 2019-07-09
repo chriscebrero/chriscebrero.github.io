@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto&display=swap');
+
+.project-item {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project-content {
+    z-index: inherit;
+    width: 55%;
+    line-height: 1.6;
+    padding: 40px;
+    flex-direction: column;
+}
+
+h3.name {
+   margin-left: 20px;
+   font-family: 'IBM Plex Mono', monospace;
+   letter-spacing: 2px;
+}
+
+h4.description {
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+p.skills {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 10px;
+    background-color: #CAF2D7;
+    border-radius: 4px;
+}
+
+p.skills:hover {
+    opacity: 0.5;
+}
+
+a.demo {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: bisque;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+a.demo:hover {
+    opacity: 0.5;
+}
+
+img.image {
+    width: 72%;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+}

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|Roboto&display=swap');
+
+
+.experience-item {
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.exp-content {
+    z-index: inherit;
+    width: 52%;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+h3 {
+    margin: 0px;
+    display: block;
+    text-align: left;
+    margin-left: 2rem;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+h4.job-position {
+    display: block;
+    text-align: left;
+    margin-left: 2rem;
+    font-style: italic;
+}
+
+h4.duration {
+    display: block;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.job-position {
+    margin: 0 0 0 2rem;
+}
+
+.description {
+    text-align: left;
+    margin-left: 0.5rem;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+}
+
+img.compimg {
+    width: 100%;
+    align-content: right;
+}
