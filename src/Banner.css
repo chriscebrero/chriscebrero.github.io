@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap');
+
+
 .banner {
     display: flex;
     flex-direction: row;
@@ -16,6 +19,8 @@
 .typed-text {
     margin-top: 5rem;
     margin-left: 6rem;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
 }
 
 .typewriter {
