@@ -15,6 +15,7 @@ class Banner extends Component {
 
         )
     }
+    //addded comment
 }
 
 export default Banner;
