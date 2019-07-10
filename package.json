@@ -18,11 +18,7 @@
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
-    "settings": {
-			"react": {
-				"version": "999.999.999"
-			}
-		}
+    "extends": "react-app"
   },
   "homepage": "https://chriscebrero.github.io",
   "browserslist": {
