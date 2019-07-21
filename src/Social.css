@@ -17,3 +17,23 @@
 .link-item:first-child {
     margin-left: 80px;
 }
+
+@media screen and (max-width: 600px) {
+
+    .social-media-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .link-item {
+        width: 10%;
+        height: 5%;
+        margin: 0 15px;
+    }
+
+    .link-item:hover {
+        opacity: 0.6;
+    }
+
+}

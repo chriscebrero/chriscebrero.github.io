@@ -46,3 +46,17 @@ h2.type-of-skill {
     margin: 1.5rem 0 5px 0;
     font-family: 'Roboto', sans-serif;
 }
+
+@media screen and (max-width: 600px) {
+    h1 {
+        text-align: center;
+        font-family: 'IBM Plex Mono', monospace;
+        font-weight: 700;
+    }
+
+    .skill-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
