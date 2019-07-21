@@ -59,4 +59,8 @@ h2.type-of-skill {
         flex-direction: column;
         justify-content: flex-start;
     }
+
+    .skill-card {
+        margin: 2rem 8.1rem;
+    }
 }
