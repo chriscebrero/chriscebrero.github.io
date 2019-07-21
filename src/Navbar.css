@@ -3,7 +3,6 @@
 header {
     background-color: #ececec;
     display: flex;
-    justify-content: space-between;
     justify-content: flex-end;
     align-items: center;
     color: black;
@@ -51,5 +50,22 @@ header nav li:first-child {
 
 header nav li:last-child {
     margin-right: 12rem;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        align-content: center;
+        justify-content: flex-start;
+        margin-left: 35px;
+        font-size: 0.7rem;
+    }
+    
+    header nav li {
+        justify-content: space-evenly;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
 }
 
