@@ -59,3 +59,23 @@ img.compimg {
     width: 100%;
     align-content: right;
 }
+
+@media screen and (max-width: 600px) {
+    .experience-item {
+        width: 400px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        background-color: #fff;
+        border-radius: 4px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .exp-content {
+        z-index: inherit;
+        width: 80%;
+        line-height: 1.6;
+        padding: 10px 0px;
+    }
+}

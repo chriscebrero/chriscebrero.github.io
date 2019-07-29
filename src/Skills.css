@@ -54,13 +54,32 @@ h2.type-of-skill {
         font-weight: 700;
     }
 
+    .skill-card {
+        margin: 2rem 4rem;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .frontend-pic {
+        width: 50%;
+    }
+
+    .backend-pic {
+        width: 40%;
+    }
+
+    .tools-pic {
+        width: 50%;
+    }
+
     .skill-cards {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        flex-wrap: wrap;
     }
+    
 
-    .skill-card {
-        margin: 2rem 8.1rem;
-    }
+    
 }

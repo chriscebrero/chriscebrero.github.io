@@ -6,3 +6,9 @@ h1 {
 .experience-list {
     width: 1400px;
 }
+
+@media screen and (max-width: 600px) {
+    .experience-list {
+        width: 500px;
+    }
+}
